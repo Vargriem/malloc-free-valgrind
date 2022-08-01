@@ -8,6 +8,9 @@ int main(void)
    char *s = get_string("s: ");
     char *t = malloc(strlen(s) + 1);
     if(t == NULL)
+    {
+        return 1;
+    }
     strcpy(t, s);
 
 
