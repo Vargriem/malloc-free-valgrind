@@ -17,5 +17,5 @@ int main(void)
     t[0] = toupper(t[0]);
     printf("s: %s\n", s);
     printf("t: %s\n", t);
-    free();
+    free(t);
 }
