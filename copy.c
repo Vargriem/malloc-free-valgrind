@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <string.h>
-int main(void)
+int main
 {
    char *s = get_string("s: ");
     char *t = malloc(strlen(s) + 1);
