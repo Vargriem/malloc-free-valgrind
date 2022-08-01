@@ -9,7 +9,7 @@ int main(void)
     char *t = malloc(strlen(s) + 1);
     if(t == NULL)
     {
-        return 1;
+        return 2;
     }
     strcpy(t, s);
 
